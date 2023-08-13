@@ -1,0 +1,56 @@
+
+/* quote */
+
+.quote {
+  background-color: #12141D;
+  color: #fff;
+}
+
+.quote-row {
+  display: flex;
+  align-items: end;
+
+  padding: 100px 0;
+}
+
+.quote-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+
+  margin: 0 50px 0 60px;
+}
+
+.quote-content q {
+  color: #fff;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+
+  max-width: 800px;
+  margin: 32px 0 0 0;
+}
+
+.quote-content cite {
+  color: #fff;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  font-style: normal;
+
+  margin: 36px 0 0 0;
+}
+
+.quote-content cite>span {
+  color: #fff;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  opacity: .5;
+}
+
+/* quote */

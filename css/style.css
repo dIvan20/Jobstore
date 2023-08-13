@@ -1,0 +1,145 @@
+/* import style */
+
+@import url(./reset.css); /* reset */
+@import url(./header.css); /* header */
+@import url(./holders-company.css); /* first section */
+@import url(./search-vacation.css); /* second section */
+@import url(./activity-company.css); /* third section */
+@import url(./quote.css); /* fourth section */
+@import url(./manage.css); /* five section */
+@import url(./footer.css); /* footer */
+
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Outfit:wght@500&family=Poppins:wght@400;500;600&family=Rubik:wght@400;500;600&display=swap');
+
+/* 
+font-family: 'DM Sans', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+*/
+
+
+
+/* Global style */
+
+body {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1.4px rgba(255, 255, 255, .1) solid;
+  border-radius: 4px;
+  padding: 14px 24px;
+
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  font-family: Rubik;
+  transition: .3s;
+}
+
+.btn img:first-child {
+  margin-right: 4px;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, .1);
+  border: 1.4px rgba(255, 255, 255, 0) solid;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.btn-1 {
+  border-radius: 4px;  
+  background-color: rgba(34, 107, 249, 0.1);
+  
+  padding: 10px 16px;
+
+  height: fit-content;
+
+  color: #226BF9;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px; 
+  transition: .3s;
+}
+
+.btn-1:hover {
+  background-color: #226BF9;
+  color: #fff;
+  transition: .3s;
+}
+
+.btn-1:active {
+  position: relative;
+  top: 1px;
+  transition: .3s;
+}
+
+.btn-2 {
+  padding: 16px 24px;
+
+  background-color: #FF6644;
+  width: fit-content;
+
+  border-radius: 4px;
+
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  transition: .3s;
+}
+
+.slider-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(255, 102, 68, 0.1);
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+.slider-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #FF6644;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+.slider-btn {
+  display: flex;
+  justify-content: end;
+  column-gap: 8px;
+}
+
+/* Global style */
+
+

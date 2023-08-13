@@ -1,0 +1,43 @@
+/* holders-company */
+
+.holders-company {
+  margin: 100px 0;
+
+}
+
+.holders-company__title {
+  border-bottom: 1.5px solid;
+  border-top: 1.5px solid;
+  border-color: #000;
+
+  position: relative;
+  padding: 32px 0;
+}
+
+.holders-company__title h3 {
+  position: absolute;
+  top: -10%;
+  right: 40%;
+
+
+  color: #12141D;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: Rubik;
+  line-height: 24px;
+
+  height: 24px;
+  width: fit-content;
+  background-color: #fff;
+
+  padding: 0 8px;
+}
+
+.holders-company__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* holders-company */

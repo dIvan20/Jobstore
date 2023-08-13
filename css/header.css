@@ -1,0 +1,166 @@
+/* header-top */
+
+.header {
+  background-color: #12141D;
+}
+
+.header hr {
+  position: relative;
+  top: 92px;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, .1);
+  height: 1.5px;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0;
+  position: relative;
+}
+
+.header-top::after {
+  content: '';
+  position: absolute;
+
+  right: 0;
+  bottom: 0;
+  height: 1.5px;
+  background-color: rgba(255, 255, 255, .1);
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 36px;
+}
+
+.nav-elem a {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.nav-elem a:hover {
+  font-weight: 500;
+}
+
+.user-account button:first-child {
+  margin-right: 20px;
+}
+
+.user-account {
+  display: flex;
+}
+
+/* header-top */
+
+
+
+
+
+
+/* header-content */
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  margin: 150px auto 0 auto;
+  padding-bottom: 140px;
+  max-width: 740px;
+
+  position: relative;
+}
+
+.header-title h1 {
+  font-size: 80px;
+  font-family: Poppins;
+  line-height: 88px;
+  letter-spacing: -2%;
+  font-weight: 700;
+  color: #fff;
+}
+
+.header-title p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Rubik;
+  color: #fff;
+  opacity: .6;
+
+  margin: 24px auto 0 auto;
+  max-width: 600px;
+}
+
+.header-subtutle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 600px;
+  max-height: 64px;
+
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1.5px #FD6314 solid;
+
+  margin: 52px auto 0 auto;
+  padding: 12px;
+
+  background-image: url(/img/icons/search.svg);
+  background-repeat: no-repeat;
+  background-position: 15px 13px;
+  background-size: 40px 40px;
+}
+
+.subtitle-search {
+  padding: 0 20px 0 60px;
+
+  cursor: pointer;
+}
+
+.subtitle-search input {
+  width: 312px;
+
+  color: #000;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.subtitle-location {
+  background-color: #E1E4E8;
+
+  padding: 10px 16px 10px 36px;
+  border-radius: 4px;
+
+  background-image: url(/img/icons/location.svg);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: 10% 50%;
+
+  cursor: pointer;
+}
+
+.counter {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+
+  margin-top: 32px;
+}
+
+.counter span {
+  color: #39C587;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* header-content */

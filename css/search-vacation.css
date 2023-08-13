@@ -1,0 +1,162 @@
+/* search vacation row */
+
+.search-vacation {
+  background-color: rgba(18, 20, 29, .1);
+  padding: 80px 0;
+}
+
+.search-vacation__heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.title {
+  color: #12141D;
+  font-family: Poppins;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: rgba(18, 20, 29, .8);
+  font-size: 16px;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: 20px;
+
+  margin-top: 12px;
+}
+
+.filter-button {
+  margin-right: 12px;
+  padding: 8px 16px;
+
+  background-color: rgba(18, 20, 29, 0.05);
+  border-radius: 4px;
+
+  color: #12141D;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  transition: .3s;
+}
+
+.filter-button:hover {
+  color: #fff;
+  font-weight: 500;
+
+  background-color: #FF6644;
+  transition: .3s;
+}
+
+.filter-button:active {
+  position: relative;
+  top: 1px;
+  transition: .3s;
+}
+
+.filter-button:last-child {
+  margin: 0;
+  transition: .3s;
+}
+
+/* search vacation row */
+
+
+
+
+
+
+/* search-vacation column */
+
+.search-vacation__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+
+  margin: 52px 0;
+}
+
+.job-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 8px;
+  border: 1.5px rgba(18, 20, 29, 0.24) solid;
+
+  padding: 20px;
+}
+
+
+.job-card__description {
+  display: flex;
+}
+
+.job-img {
+  margin-right: 20px;
+}
+
+.card-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-information h3{
+  color: #12141D;
+  font-family: Poppins;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+}
+.condition {
+  display: flex;
+  align-items: center;
+
+  column-gap: 20px;
+}
+
+.condition li {
+  display: flex;
+  align-items: center;
+}
+
+.information {
+  color: #12141D;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  opacity: .8;
+}
+
+.information img {
+  margin-right: 4px;
+}
+
+.job-type {
+  margin-left: 20px;
+  padding: 6px 10px;
+
+  border-radius: 4px;
+  background-color: rgba(255, 102, 68, .1);
+
+  color: #FD4C5C;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+}
+
+/* search-vacation column */
